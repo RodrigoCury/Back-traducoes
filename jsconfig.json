@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "module": "commonJS",
+    "target": "es6",
+    "lib": ["esnext"],
+    "moduleResolution": "node"
+  },
+  "exclude": ["node_modules"]
+}

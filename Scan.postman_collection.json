@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "8001a458-0a0b-4c00-a4bc-4299ae69453f",
+		"name": "Scan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Start Scan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"url\": \"https://www.marilua.com.br/\",\n    \"maxUrls\": 0,\n    \"additionalUrls\": [\n\n    ],\n    \"ignore\": [\n       \n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8093/api/start-scan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8093",
+					"path": [
+						"api",
+						"start-scan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Stop Scan",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8093/api/stop-scan/614b267e4504b02963a7cbea",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8093",
+					"path": [
+						"api",
+						"stop-scan",
+						"614b267e4504b02963a7cbea"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Scan",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8093/api/get-scan/614c6509898f25c21fd88718",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8093",
+					"path": [
+						"api",
+						"get-scan",
+						"614c6509898f25c21fd88718"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

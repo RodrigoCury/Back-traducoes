@@ -1,0 +1,28 @@
+# Dependency directories
+node_modules/
+
+#/optimized
+.ideia
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables file
+.env.test
+.env.local
+
+#yarn 2 files 
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+.vscode
+.tool-versions

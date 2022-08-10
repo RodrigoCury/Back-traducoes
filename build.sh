@@ -1,0 +1,1 @@
+sudo docker build --rm -t dp/website-scan-api .
