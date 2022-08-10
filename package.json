@@ -1,9 +1,9 @@
 {
-  "name": "website-scan-api",
+  "name": "back_traducoes",
   "version": "2205.3.7",
-  "description": "Website crawler, scrapper and scan",
+  "description": "i18n Tranlation facilitator",
   "main": "index.js",
-  "author": "Matheus Wandscheer | WS Work | Privacy Tools",
+  "author": "Rodrigo Cury",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --ignore ./locales/ --exec babel-node index.js --trace-warnings"
